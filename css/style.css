@@ -1,0 +1,53 @@
+
+/* default css */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* section */
+section{
+	height: 400px;
+
+}
+.text{
+	font-size: 60px;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	color: #8b8b8bc4;
+}
+.container{
+	max-width: 80%;
+	margin: auto;
+}
+.icon-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	
+}
+.icon-content .icon-box{
+	flex: 1 1 300px;
+	text-align: center;
+	padding: 30px 20px;
+	margin: 20px;
+	border-radius: 33px;
+	background: #e0e0e0;
+	box-shadow:  35px 35px 70px #afafaf,
+             -35px -35px 70px #ffffff;
+
+}
+.icon-content .icon-box i{
+	font-size: 40px;
+	color: #6a6a6a;
+}
+.icon-content .icon-box h1{
+	color:  #8b8b8bc4;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+.icon-content .icon-box p{
+	color:  #7b7b7b;
+}
